@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_rounded_corners"
+    android:animateLayoutChanges="true"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Notifications"
+            android:id="@+id/dev_notification_text"
+            android:layout_marginRight="10dp" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toggle Notification"
+            android:id="@+id/dev_toggle_notification"
+            android:textColor="#ffffff"
+            android:checked="false"
+            android:background="@color/colorLightBlue"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="SMS"
+            android:id="@+id/dev_sms_text"
+            android:layout_marginRight="10dp" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New ToggleButton"
+            android:id="@+id/dev_toggle_sms"
+            android:background="@color/colorLightBlue"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="RESET TO EXAMPLE"
+        android:id="@+id/dev_reset_example_user"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorLightBlue"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="RESET EVERYTHING"
+        android:id="@+id/dev_master_reset"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorLightBlue"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CLOSE WINDOW"
+        android:id="@+id/dev_settings_close"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorLightBlue"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+</LinearLayout>

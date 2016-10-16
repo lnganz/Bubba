@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "finalproject160-cfdaa",
+    "project_number": "917261444411",
+    "name": "FinalProject160"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917261444411:android:9ad95349c988f3c0",
+        "client_id": "android:com.tminusone60.finalproject160",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.tminusone60.finalproject160",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917261444411-4hn5j2mqg94fes2dl5lnas770oj67uef.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tminusone60.finalproject160",
+            "certificate_hash": "319E4891EDD3C88097F88E5210716053AD9F97EE"
+          }
+        },
+        {
+          "client_id": "917261444411-39jl1845up7s055ursctkbtg3csdem82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

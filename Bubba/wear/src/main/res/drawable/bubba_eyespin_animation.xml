@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bubba_not_happy" android:duration="50" />
+    <item android:drawable="@drawable/bubba_spin_1" android:duration="200" />
+    <item android:drawable="@drawable/bubba_spin_2" android:duration="200" />
+    <item android:drawable="@drawable/bubba_spin_3" android:duration="200" />
+    <item android:drawable="@drawable/bubba_spin_4" android:duration="200" />
+    <item android:drawable="@drawable/bubba_spin_5" android:duration="200" />
+    <item android:drawable="@drawable/bubba_spin_6" android:duration="200" />
+    <item android:drawable="@drawable/bubba_spin_7" android:duration="200" />
+    <item android:drawable="@drawable/bubba_spin_0" android:duration="200" />
+</animation-list>

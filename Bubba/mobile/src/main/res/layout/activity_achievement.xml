@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_rounded_corners"
+    android:gravity="center_vertical|center_horizontal"
+    android:padding="30dp">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/achievement_icon"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/achievement_star"
+        android:layout_weight=".25" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations!"
+        android:id="@+id/achievement_header"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight=".25" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOU DID GOOD"
+        android:id="@+id/achievement_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_weight=".25" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="CLOSE"
+        android:id="@+id/achievement_close"
+        android:textColor="#0FC8B4"
+        android:layout_marginRight="0dp"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:layout_weight=".25" />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp" >
+
+    <ImageButton
+        android:id="@+id/title_bubba_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/button_bubba"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:background="@null" />
+
+    <ImageButton
+        android:id="@+id/title_help_button"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="2dp"
+        android:src="@drawable/button_help"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="4dp"
+        android:layout_alignBottom="@+id/title_bubba_button"
+        android:layout_marginBottom="4dp" />
+
+    <ImageButton
+        android:id="@+id/title_settings_button"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="4dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/button_settings" />
+
+</RelativeLayout>
