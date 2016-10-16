@@ -17,9 +17,15 @@ Parents are alerted if the child does not feed their pet in a few days.
 ## Screenshots
 
 <img src="screenshots/bubba_screens_1.PNG" height="1000" alt="Screenshot"/>
+
+
 <img src="screenshots/bubba_screens_2.PNG" height="1000" alt="Screenshot"/>
+
+
 <img src="screenshots/bubba_screens_3.PNG" height="1000" alt="Screenshot"/>
-<img src="screenshots/bubba_screens_4.PNG" height="1100" alt="Screenshot"/>
+
+
+<img src="screenshots/bubba_screens_4.PNG" height="1050" alt="Screenshot"/>
 
 
 
